@@ -24,7 +24,7 @@ public class BizController {
         return "success";
     }
 
-    @RequestMapping(value = "/getuser", method = RequestMethod.GET)
+    @RequestMapping(value = "/getuserlll", method = RequestMethod.GET)
     public User add() {
         ServiceInstance instance = client.getLocalServiceInstance();
         logger.info("/getuser, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
